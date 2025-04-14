@@ -1,0 +1,16 @@
+[uv]
+# UV configuration
+python-version = "3.8"  # Minimum supported Python version
+exclude = ["build", "dist", "__pycache__", "*.egg-info"]
+link-mode = "venv"  # Use virtual environments
+
+[commands]
+# Custom UV commands
+install-dev = "install --editable . --dev"
+lint = "run ruff nasencoder/"
+format = "run black nasencoder/"
+test = "run pytest"
+
+[uvenv]
+# Environment variables for development environments
+PYTHONPATH = "."
