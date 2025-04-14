@@ -37,10 +37,6 @@ main.py            # Main CLI script
 ### Using pip
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/nasencoder.git
-cd nasencoder
-
 # Install the package
 pip install -e .
 ```
@@ -50,10 +46,6 @@ pip install -e .
 [uv](https://github.com/astral-sh/uv) is a fast Python package installer and resolver that can significantly speed up your development workflow.
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/nasencoder.git
-cd nasencoder
-
 # Install uv if you don't have it
 pip install uv
 
